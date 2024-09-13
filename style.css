@@ -1,6 +1,11 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-weight: 450;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -20,7 +25,7 @@ header {
 }
 
 .top-left {
-    padding-left: 277px;
+    padding-left: 266px;
     font-size: 16px;
     font-weight: 450;
     letter-spacing: -1px;
@@ -30,7 +35,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 220px;
+    margin-right: 267px;
 }
 
 .menu a {
@@ -50,8 +55,8 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 100%;
-    height: 750px;
+    width: 1600px;
+    height: 715px;
     background-image: url('./images/lawyer.jpg');
     background-color: #cccccc;
     background-blend-mode: multiply;
@@ -63,13 +68,13 @@ header {
 .sign-up-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     background-color: #1b3b5b;
-    width: 390px;
-    height: 452px;
+    width: 374px;
+    height: 432px;
     color: white;
-    margin-left: 280px;
+    margin-left: 266px;
 }
 
 .sign-up-box * {
@@ -80,23 +85,25 @@ header {
     font-size: 15px;
     font-weight: 450;
     line-height: 0.45;
-    margin-bottom: -20px;
+    margin-top: 54px;
+    margin-bottom: -10px;
 }
 
 .sign-up-box h1 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 400;
     line-height: 1;
     letter-spacing: -2px;
-    margin-bottom: 10px;
+    margin-bottom: 19px;
 }
 
 .sign-up-box p {
     color: #f5de4e;
     font-family: "Open Sans", sans-serif;
     font-style: italic;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
+    margin-top: 0;
     margin-bottom: 25px;
 }
 
@@ -104,8 +111,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 306px;
-    margin-bottom: 30px;
+    width: 289px;
+    margin-top: 0;
 }
 
 .sign-up-box form input {
@@ -123,10 +130,10 @@ header {
     align-items: center;
     background-color: #f5de4e;
     font-family: "Montserrat", sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     letter-spacing: 1px;
-    width: 170px;
-    height: 50px;
+    width: 157px;
+    height: 43px;
     margin-left: 0;
     border: none;
 }
@@ -142,8 +149,8 @@ header {
 .features-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 1120px;
+    align-items: flex-start;
+    width: 1068px;
     height: 100%;
 }
 
@@ -151,8 +158,8 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 342px;
-    padding-top: 20px;
+    width: 316px;
+    margin-top: 141px;
 }
 
 .amazing-feature h3 {
@@ -160,15 +167,17 @@ header {
     font-weight: 450;
     letter-spacing: -1px;
     line-height: 0.5;
-    margin-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 
 .amazing-feature p {
     color: #858585;
     font-family: "Open Sans", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     line-height: 1.6;
+    margin-top: 0;
 }
 
 #cite-banner {
@@ -177,22 +186,22 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 362px;
+    height: 366px;
     background-color: #f4f4f4;
 }
 
 #cite-banner h2 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 450;
     margin-bottom: 0;
 }
 
 #cite-banner p {
     font-family: "Open Sans", sans-serif;
+    font-size: 13px;
     font-weight: 500;
-    letter-spacing: -1px;
     color: #808080;
-    margin-bottom: 15px;
+    margin-top: 14px;
 }
 
 #cite-banner span {
@@ -205,7 +214,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 917px;
+    height: 850px;
 }
 
 .pricing-background {
@@ -229,7 +238,7 @@ header {
     background-blend-mode: overlay;
     background-size: cover;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
     filter: grayscale(100%);
     z-index: -1;
 }
@@ -239,7 +248,7 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 1120px;
+    width: 1068px;
     height: 100%;
     position: relative;
     z-index: 1;
@@ -250,13 +259,13 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 66px;
+    margin-top: 65px;
     margin-bottom: 100px;
 }
 
 .pricing-title h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 450;
 }
 
@@ -279,29 +288,29 @@ header {
     align-items: center;
     z-index: 1;
     background-color: #f8f8f8;
-    width: 344px;
-    height: 522px;
+    width: 328px;
+    height: 524px;
     isolation: isolate;
 }
 
 .horizontal-line {
-    background: repeating-linear-gradient(0deg, rgba(229, 229, 229, 0.5) 0 1px, #f8f8f8 1px 15px);
+    background: repeating-linear-gradient(0deg, rgba(229, 229, 229, 1) 0 1px, #f8f8f8 1px 15px);
 }
 
 .vertical-line {
-    background: repeating-linear-gradient(90deg, rgba(229, 229, 229, 0.5) 0 1px, transparent 1px 15px);
+    background: repeating-linear-gradient(90deg, rgba(229, 229, 229, 1) 0 1px, transparent 1px 15px);
 }
 
 .diagonal-line-1 {
-    background: repeating-linear-gradient(45deg, rgba(229, 229, 229, 0.5) 0 1px, transparent 1px 15px);
+    background: repeating-linear-gradient(45deg, rgba(229, 229, 229, 1) 0 1px, transparent 1px 15px);
 }
 
 .diagonal-line-2 {
-    background: repeating-linear-gradient(-45deg, rgba(229, 229, 229, 0.5) 0 1px, transparent 1px 15px);
+    background: repeating-linear-gradient(-45deg, rgba(229, 229, 229, 1) 0 1px, transparent 1px 15px);
 }
 
 .plan-title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 450;
     letter-spacing: -1px;
     margin-top: 65px;
@@ -311,10 +320,10 @@ header {
 .plan-features {
     list-style-type: none;
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 2.5;
     padding-left: 0;
-    margin-top: 30px;
+    margin-top: 32px;
     margin-bottom: 0;
 }
 
@@ -324,7 +333,7 @@ header {
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     line-height: 1;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .plan-button {
@@ -335,8 +344,8 @@ header {
     color: white;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
-    width: 147px;
-    height: 60px;
+    width: 140px;
+    height: 56px;
     margin-top: 14px;
     border: none;
 }
@@ -370,32 +379,32 @@ header {
 }
 
 .try-container h1 {
-    width: 444px;
+    width: 423px;
     text-align: center;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: 450;
     letter-spacing: -1px;
     line-height: 1;
-    margin-top: 180px;
-    margin-bottom: 20px;
+    margin-top: 176px;
+    margin-bottom: 16px;
 }
 
 .try-container p {
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    font-size: 12.5px;
+    font-size: 12px;
     margin-top: 0;
-    margin-bottom: 36px;
+    margin-bottom: 35px;
 }
 
 .try-button {
     background-color: #f5de4e;
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 450;
-    width: 185px;
-    height: 45px;
+    width: 176px;
+    height: 40px;
     border: none;
 }
 
@@ -405,25 +414,25 @@ footer {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
-    height: 308px;
+    height: 293px;
     background-color: #1f252f;
     color: white;
 }
 
 footer h3 {
-    width: 88px;
-    font-size: 14px;
+    width: 83px;
+    font-size: 13px;
     font-weight: 450;
-    margin-top: 95px;
-    margin-bottom: 15px;
+    margin-top: 92px;
+    margin-bottom: 13px;
 }
 
 footer p {
-    width: 441px;
+    width: 421px;
     color: #cecece;
-    font-size: 11px;
+    font-size: 10px;
     margin-top: 0;
-    margin-bottom: 42px;
+    margin-bottom: 40px;
 }
 
 .social-icons {
@@ -434,5 +443,5 @@ footer p {
 }
 
 .social-icons img {
-    width: 35px;
+    width: 32px;
 }
